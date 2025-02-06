@@ -1,0 +1,37 @@
+\doxysection{expr.\+h File Reference}
+\hypertarget{expr_8h}{}\label{expr_8h}\index{expr.h@{expr.h}}
+
+
+brief Defines classes for mathematical expressions.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_expr}{Expr}}
+\item 
+class \mbox{\hyperlink{class_num}{Num}}
+\item 
+class \mbox{\hyperlink{class_add}{Add}}
+\item 
+class \mbox{\hyperlink{class_mult}{Mult}}
+\item 
+class \mbox{\hyperlink{class_var}{Var}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{expr_8h_a9e5fdf365cd8dc7be4d972daf07f8bdf}\label{expr_8h_a9e5fdf365cd8dc7be4d972daf07f8bdf} 
+enum {\bfseries precedence\+\_\+t} \{ {\bfseries prec\+\_\+none}
+, {\bfseries prec\+\_\+add}
+, {\bfseries prec\+\_\+mult}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+brief Defines classes for mathematical expressions. 
+
+There is the expr class. \doxylink{class_add}{Add}, mult, and var subclasses. All of the expr calls get overridden by \doxylink{class_add}{Add}, mult, and var subclasses 

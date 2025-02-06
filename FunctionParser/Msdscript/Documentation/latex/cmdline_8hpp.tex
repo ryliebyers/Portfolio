@@ -1,0 +1,41 @@
+\doxysection{cmdline.\+hpp File Reference}
+\hypertarget{cmdline_8hpp}{}\label{cmdline_8hpp}\index{cmdline.hpp@{cmdline.hpp}}
+
+
+expression class  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{cmdline_8hpp_aede620194870692a214dd41e20965694}{use\+\_\+arguments}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Parses command-\/line arguments to determine if tests should be run. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+expression class 
+
+Checks users input 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{cmdline_8hpp_aede620194870692a214dd41e20965694}\label{cmdline_8hpp_aede620194870692a214dd41e20965694} 
+\index{cmdline.hpp@{cmdline.hpp}!use\_arguments@{use\_arguments}}
+\index{use\_arguments@{use\_arguments}!cmdline.hpp@{cmdline.hpp}}
+\doxysubsubsection{\texorpdfstring{use\_arguments()}{use\_arguments()}}
+{\footnotesize\ttfamily bool use\+\_\+arguments (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Parses command-\/line arguments to determine if tests should be run. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & The number of command-\/line arguments \\
+\hline
+{\em argv} & The array of command-\/line arguments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if the "{}-\/-\/test"{} flag is present, indicating that tests should be run; false otherwise 
+\end{DoxyReturn}

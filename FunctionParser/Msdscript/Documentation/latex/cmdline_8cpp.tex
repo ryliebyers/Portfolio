@@ -1,0 +1,44 @@
+\doxysection{cmdline.\+cpp File Reference}
+\hypertarget{cmdline_8cpp}{}\label{cmdline_8cpp}\index{cmdline.cpp@{cmdline.cpp}}
+{\ttfamily \#include "{}cmdline.\+hpp"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include "{}expr.\+h"{}}\newline
+{\ttfamily \#include "{}catch.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{cmdline_8cpp_aede620194870692a214dd41e20965694}{use\+\_\+arguments}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Parses command-\/line arguments to determine if tests should be run. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\textbackslash{}\+Checks user inputs
+
+If user inserts --test all tests run, If they enter --help lists all calls. And returns error if the correct call isnt entered. \begin{DoxyAuthor}{Author}
+Rylie Byers 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{cmdline_8cpp_aede620194870692a214dd41e20965694}\label{cmdline_8cpp_aede620194870692a214dd41e20965694} 
+\index{cmdline.cpp@{cmdline.cpp}!use\_arguments@{use\_arguments}}
+\index{use\_arguments@{use\_arguments}!cmdline.cpp@{cmdline.cpp}}
+\doxysubsubsection{\texorpdfstring{use\_arguments()}{use\_arguments()}}
+{\footnotesize\ttfamily bool use\+\_\+arguments (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Parses command-\/line arguments to determine if tests should be run. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & The number of command-\/line arguments \\
+\hline
+{\em argv} & The array of command-\/line arguments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if the "{}-\/-\/test"{} flag is present, indicating that tests should be run; false otherwise 
+\end{DoxyReturn}

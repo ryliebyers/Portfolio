@@ -1,0 +1,210 @@
+\doxysection{Num Class Reference}
+\hypertarget{class_num}{}\label{class_num}\index{Num@{Num}}
+Inheritance diagram for Num\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_num}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_num_a9fce58e650a99ae50f4140ed9c87ec9f}{Num}} (int \mbox{\hyperlink{class_num_ab0654582066deb3adbbd64cf7190a7b7}{val}})
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{class_num}{Num} object with the specified value. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_num_a07316c2897aadb9257b8de74dbfdcc03}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}e) override
+\begin{DoxyCompactList}\small\item\em Checks if the given expression equals this \doxylink{class_num}{Num} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_num_a9897087e439e1b7e6d90c6d9b9aadbb8}{interp}} () const override
+\begin{DoxyCompactList}\small\item\em Evaluates the \doxylink{class_num}{Num} expression and returns its value. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_num_a16ced80cc1e1ebe6a8387621bdb6aa35}{has\+\_\+variable}} () const override
+\begin{DoxyCompactList}\small\item\em Checks if the \doxylink{class_num}{Num} expression has a variable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_num_a5aa86e76c81505266e4e87f7952e3711}{subst}} (const std\+::string \&var, \mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}replacement) const override
+\begin{DoxyCompactList}\small\item\em Substitutes a variable in the \doxylink{class_num}{Num} expression with a replacement expression. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_num_a548ea95e7a5c9154625b992f0a5b067a}{clone}} () const override
+\begin{DoxyCompactList}\small\item\em Clones the \doxylink{class_num}{Num} expression. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_num_a5869a7589e0579fbd9a026e4b17094e7}{to\+\_\+string}} () const
+\begin{DoxyCompactList}\small\item\em Returns a string representation of the \doxylink{class_num}{Num} expression. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_num_a13de6f21485516ebfebdbc759a5ee772}{print}} (std\+::ostream \&os) const override
+\begin{DoxyCompactList}\small\item\em Prints the \doxylink{class_num}{Num} expression to the output stream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_expr}{Expr}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_expr_a7bec2d72187b0b5228442bc03e2226b7}{to\+\_\+string}} () const
+\begin{DoxyCompactList}\small\item\em Returns a string representation of the expression. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_expr_a2e6aa026dd5e4e8cfd3823da0c76e938}{pretty\+\_\+print\+\_\+at}} (std\+::ostream \&os, precedence\+\_\+t prec\+\_\+current) const
+\begin{DoxyCompactList}\small\item\em Pretty printsthe expression with varying parentheses. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_expr_a882990ddbfec71ededa09335e7434221}{pretty\+\_\+print}} (std\+::ostream \&os) const
+\begin{DoxyCompactList}\small\item\em calls recursive method pretty\+\_\+print\+\_\+at \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{class_expr_a716cbe983dfa2edf43527facbc6332a5}{to\+\_\+pretty\+\_\+string}} () const
+\begin{DoxyCompactList}\small\item\em Returns a pretty string representation of the expression. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_num_ab0654582066deb3adbbd64cf7190a7b7}\label{class_num_ab0654582066deb3adbbd64cf7190a7b7} 
+int {\bfseries val}
+\begin{DoxyCompactList}\small\item\em represents a number \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_num_a9fce58e650a99ae50f4140ed9c87ec9f}\label{class_num_a9fce58e650a99ae50f4140ed9c87ec9f} 
+\index{Num@{Num}!Num@{Num}}
+\index{Num@{Num}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{Num()}{Num()}}
+{\footnotesize\ttfamily Num\+::\+Num (\begin{DoxyParamCaption}\item[{int}]{val }\end{DoxyParamCaption})}
+
+
+
+Constructs a \doxylink{class_num}{Num} object with the specified value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & The value of the \doxylink{class_num}{Num} object. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_num_a548ea95e7a5c9154625b992f0a5b067a}\label{class_num_a548ea95e7a5c9154625b992f0a5b067a} 
+\index{Num@{Num}!clone@{clone}}
+\index{clone@{clone}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} Num\+::clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Clones the \doxylink{class_num}{Num} expression. 
+
+\begin{DoxyReturn}{Returns}
+A new copy of the \doxylink{class_num}{Num} expression. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_num_a07316c2897aadb9257b8de74dbfdcc03}\label{class_num_a07316c2897aadb9257b8de74dbfdcc03} 
+\index{Num@{Num}!equals@{equals}}
+\index{equals@{equals}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily bool Num\+::equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Checks if the given expression equals this \doxylink{class_num}{Num} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & The expression to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the expressions are equal, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_num_a16ced80cc1e1ebe6a8387621bdb6aa35}\label{class_num_a16ced80cc1e1ebe6a8387621bdb6aa35} 
+\index{Num@{Num}!has\_variable@{has\_variable}}
+\index{has\_variable@{has\_variable}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{has\_variable()}{has\_variable()}}
+{\footnotesize\ttfamily bool Num\+::has\+\_\+variable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Checks if the \doxylink{class_num}{Num} expression has a variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the \doxylink{class_num}{Num} expression has a variable, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_num_a9897087e439e1b7e6d90c6d9b9aadbb8}\label{class_num_a9897087e439e1b7e6d90c6d9b9aadbb8} 
+\index{Num@{Num}!interp@{interp}}
+\index{interp@{interp}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{interp()}{interp()}}
+{\footnotesize\ttfamily int Num\+::interp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Evaluates the \doxylink{class_num}{Num} expression and returns its value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value of the \doxylink{class_num}{Num} expression. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_num_a13de6f21485516ebfebdbc759a5ee772}\label{class_num_a13de6f21485516ebfebdbc759a5ee772} 
+\index{Num@{Num}!print@{print}}
+\index{print@{print}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Num\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Prints the \doxylink{class_num}{Num} expression to the output stream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & The output stream to print to. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_expr_a05784a3f17bb07a2daccc4ca20a11685}{Expr}}.
+
+\Hypertarget{class_num_a5aa86e76c81505266e4e87f7952e3711}\label{class_num_a5aa86e76c81505266e4e87f7952e3711} 
+\index{Num@{Num}!subst@{subst}}
+\index{subst@{subst}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{subst()}{subst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} Num\+::subst (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{var,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}}]{replacement }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Substitutes a variable in the \doxylink{class_num}{Num} expression with a replacement expression. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em var} & The variable to substitute. \\
+\hline
+{\em replacement} & The expression to replace the variable with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new expression after substitution. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_num_a5869a7589e0579fbd9a026e4b17094e7}\label{class_num_a5869a7589e0579fbd9a026e4b17094e7} 
+\index{Num@{Num}!to\_string@{to\_string}}
+\index{to\_string@{to\_string}!Num@{Num}}
+\doxysubsubsection{\texorpdfstring{to\_string()}{to\_string()}}
+{\footnotesize\ttfamily std\+::string Num\+::to\+\_\+string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns a string representation of the \doxylink{class_num}{Num} expression. 
+
+\begin{DoxyReturn}{Returns}
+A string representing the \doxylink{class_num}{Num} expression. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{expr_8h}{expr.\+h}}\item 
+\mbox{\hyperlink{expr_8cpp}{expr.\+cpp}}\end{DoxyCompactItemize}

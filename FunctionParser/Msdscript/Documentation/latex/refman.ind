@@ -1,0 +1,143 @@
+\begin{theindex}
+
+  \item {Add}, \hyperpage{7}
+    \subitem {Add}, \hyperpage{8}
+    \subitem {clone}, \hyperpage{8}
+    \subitem {equals}, \hyperpage{8}
+    \subitem {has\_variable}, \hyperpage{9}
+    \subitem {interp}, \hyperpage{9}
+    \subitem {pretty\_print}, \hyperpage{9}
+    \subitem {print}, \hyperpage{9}
+    \subitem {subst}, \hyperpage{10}
+    \subitem {to\_pretty\_string}, \hyperpage{10}
+
+  \indexspace
+
+  \item {clone}
+    \subitem {Add}, \hyperpage{8}
+    \subitem {Expr}, \hyperpage{11}
+    \subitem {Mult}, \hyperpage{15}
+    \subitem {Num}, \hyperpage{18}
+    \subitem {Var}, \hyperpage{22}
+  \item {cmdline.cpp}, \hyperpage{25}
+    \subitem {use\_arguments}, \hyperpage{25}
+  \item {cmdline.hpp}, \hyperpage{26}
+    \subitem {use\_arguments}, \hyperpage{26}
+
+  \indexspace
+
+  \item {equals}
+    \subitem {Add}, \hyperpage{8}
+    \subitem {Expr}, \hyperpage{11}
+    \subitem {Mult}, \hyperpage{15}
+    \subitem {Num}, \hyperpage{18}
+    \subitem {Var}, \hyperpage{22}
+  \item {Expr}, \hyperpage{11}
+    \subitem {clone}, \hyperpage{11}
+    \subitem {equals}, \hyperpage{11}
+    \subitem {has\_variable}, \hyperpage{11}
+    \subitem {interp}, \hyperpage{11}
+    \subitem {pretty\_print}, \hyperpage{12}
+    \subitem {pretty\_print\_at}, \hyperpage{12}
+    \subitem {print}, \hyperpage{12}
+    \subitem {subst}, \hyperpage{12}
+    \subitem {to\_pretty\_string}, \hyperpage{13}
+    \subitem {to\_string}, \hyperpage{13}
+  \item {expr.cpp}, \hyperpage{27}
+  \item {expr.h}, \hyperpage{27}
+
+  \indexspace
+
+  \item {has\_variable}
+    \subitem {Add}, \hyperpage{9}
+    \subitem {Expr}, \hyperpage{11}
+    \subitem {Mult}, \hyperpage{15}
+    \subitem {Num}, \hyperpage{19}
+    \subitem {Var}, \hyperpage{22}
+
+  \indexspace
+
+  \item {interp}
+    \subitem {Add}, \hyperpage{9}
+    \subitem {Expr}, \hyperpage{11}
+    \subitem {Mult}, \hyperpage{15}
+    \subitem {Num}, \hyperpage{19}
+    \subitem {Var}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Mult}, \hyperpage{13}
+    \subitem {clone}, \hyperpage{15}
+    \subitem {equals}, \hyperpage{15}
+    \subitem {has\_variable}, \hyperpage{15}
+    \subitem {interp}, \hyperpage{15}
+    \subitem {Mult}, \hyperpage{14}
+    \subitem {pretty\_print}, \hyperpage{16}
+    \subitem {print}, \hyperpage{16}
+    \subitem {subst}, \hyperpage{16}
+    \subitem {to\_pretty\_string}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Num}, \hyperpage{17}
+    \subitem {clone}, \hyperpage{18}
+    \subitem {equals}, \hyperpage{18}
+    \subitem {has\_variable}, \hyperpage{19}
+    \subitem {interp}, \hyperpage{19}
+    \subitem {Num}, \hyperpage{18}
+    \subitem {print}, \hyperpage{19}
+    \subitem {subst}, \hyperpage{20}
+    \subitem {to\_string}, \hyperpage{20}
+
+  \indexspace
+
+  \item {pretty\_print}
+    \subitem {Add}, \hyperpage{9}
+    \subitem {Expr}, \hyperpage{12}
+    \subitem {Mult}, \hyperpage{16}
+  \item {pretty\_print\_at}
+    \subitem {Expr}, \hyperpage{12}
+  \item {print}
+    \subitem {Add}, \hyperpage{9}
+    \subitem {Expr}, \hyperpage{12}
+    \subitem {Mult}, \hyperpage{16}
+    \subitem {Num}, \hyperpage{19}
+    \subitem {Var}, \hyperpage{22}
+
+  \indexspace
+
+  \item {subst}
+    \subitem {Add}, \hyperpage{10}
+    \subitem {Expr}, \hyperpage{12}
+    \subitem {Mult}, \hyperpage{16}
+    \subitem {Num}, \hyperpage{20}
+    \subitem {Var}, \hyperpage{23}
+
+  \indexspace
+
+  \item {to\_pretty\_string}
+    \subitem {Add}, \hyperpage{10}
+    \subitem {Expr}, \hyperpage{13}
+    \subitem {Mult}, \hyperpage{17}
+  \item {to\_string}
+    \subitem {Expr}, \hyperpage{13}
+    \subitem {Num}, \hyperpage{20}
+
+  \indexspace
+
+  \item {use\_arguments}
+    \subitem {cmdline.cpp}, \hyperpage{25}
+    \subitem {cmdline.hpp}, \hyperpage{26}
+
+  \indexspace
+
+  \item {Var}, \hyperpage{20}
+    \subitem {clone}, \hyperpage{22}
+    \subitem {equals}, \hyperpage{22}
+    \subitem {has\_variable}, \hyperpage{22}
+    \subitem {interp}, \hyperpage{22}
+    \subitem {print}, \hyperpage{22}
+    \subitem {subst}, \hyperpage{23}
+    \subitem {Var}, \hyperpage{21}
+
+\end{theindex}
