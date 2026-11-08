@@ -4,7 +4,7 @@ A collection of personal and collaborative projects showcasing experience in mob
 
 ---
 
-## 📱 AndroidDrawingApp
+##  AndroidDrawingApp
 
 A basic Android drawing app built with **Kotlin** and **Jetpack Compose**.
 
@@ -19,7 +19,7 @@ A basic Android drawing app built with **Kotlin** and **Jetpack Compose**.
 
 ---
 
-## 🎮 DropcatcherQTGame
+##  DropcatcherQTGame
 
 A falling-object catching game developed using **C++**, **C**, and **qmake**.  
 Demonstrates use of the Qt framework for interactive GUI programming.
@@ -28,7 +28,7 @@ Demonstrates use of the Qt framework for interactive GUI programming.
 
 ---
 
-## 🧙 Flutter RPG App
+##  Flutter RPG App
 
 A cross-platform character sheet manager for tabletop role-playing games.
 
@@ -40,7 +40,7 @@ Players can create, update, and store character profiles across multiple campaig
 
 ---
 
-## 🧮 FunctionParser
+##  FunctionParser
 
 A custom interpreter for a mini C++-like scripting language.
 
@@ -49,16 +49,16 @@ Parses and evaluates arithmetic expressions and basic control structures.
 
 ---
 
-## 🎓 LMS (Learning Management System)
+##  LMS (Learning Management System)
 
 A full-stack web application for managing academic users and coursework, built with **ASP.NET Core** and **Entity Framework**.
 
 **Key Features:**
-- 🔐 **Authentication:** ASP.NET Identity with a dedicated user database (`TeamXLMSUsers`)  
-- 🗂️ **Data Models:** Courses, departments, and classes scaffolded from `TeamXLMS` database  
-- 👥 **User Roles:** Admin, Professor, and Student dashboards with role-based access  
-- 🧮 **Grading System:** Automatic final grade calculation based on assignment weights  
-- 🧪 **Testing:** Includes unit test setup and manual data entry for development  
+-  **Authentication:** ASP.NET Identity with a dedicated user database (`TeamXLMSUsers`)  
+-  **Data Models:** Courses, departments, and classes scaffolded from `TeamXLMS` database  
+-  **User Roles:** Admin, Professor, and Student dashboards with role-based access  
+-  **Grading System:** Automatic final grade calculation based on assignment weights  
+-  **Testing:** Includes unit test setup and manual data entry for development  
 
 **Setup Instructions:**
 1. Configure both databases using user secrets  
@@ -70,7 +70,7 @@ A full-stack web application for managing academic users and coursework, built w
 
 ---
 
-## 🔐 TLSlite
+##  TLSlite
 
 A simplified implementation of the **TLS** protocol using **C**, **RSA encryption**, and **Diffie-Hellman key exchange**.
 
